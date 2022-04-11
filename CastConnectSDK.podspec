@@ -25,18 +25,18 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'Core' do |sub|
     sub.source_files = [
-      'ConnectSDKDefaultPlatforms.h',
+      'CastConnectSDKDefaultPlatforms.h',
       'core/**/*.{h,m}'
     ]
 
     sub.exclude_files = [
       'core/Frameworks/asi-http-request/External/Reachability/*.{h,m}',
       'core/Frameworks/asi-http-request/Classes/*.{h,m}',
-      'core/ConnectSDK*Tests/**/*',
+      'core/CastConnectSDK*Tests/**/*',
     ]
     
     sub.requires_arc = true
-    sub.dependency 'ConnectSDK/no-arc'
+    sub.dependency 'CastConnectSDK/no-arc'
 
   end
 
