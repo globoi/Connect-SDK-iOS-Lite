@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 Pod::Spec.new do |spec|
-  spec.name         = 'ConnectSDK'
+  spec.name         = 'CastConnectSDK'
   spec.version      = '1.7.0'
   spec.summary      = 'Connect SDK iOS Lite'
   spec.description  = <<-DESC
@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.homepage      = 'https://github.com/globoi/Connect-SDK-iOS-Lite.git'
   spec.license       = { type: 'proprietary', file: 'LICENSE' }
   spec.author        = { 'globoID Mobile' => 'globoid.mobile@g.globo' }
-  spec.module_name   = 'ConnectSDK'
+  spec.module_name   = 'CastConnectSDK'
   spec.source        = { :git => 'https://github.com/globoi/Connect-SDK-iOS-Lite.git', :tag => spec.version.to_s, :submodules => true }
   spec.platforms     = { ios: '7.1' }
 
