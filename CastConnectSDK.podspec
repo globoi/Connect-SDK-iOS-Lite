@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = 'CastConnectSDK'
-  spec.version      = '2.0.0'
+  spec.version      = '2.0.1'
   spec.summary      = 'Connect SDK iOS Lite'
   spec.description  = <<-DESC
     Connect SDK is an open source framework that connects your mobile apps with multiple TV platforms.
