@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'Core' do |sub|
     sub.source_files = [
-      'CastConnectSDKDefaultPlatforms.h',
+      'ConnectSDKDefaultPlatforms.h',
       'core/**/*.{h,m}'
     ]
 
